@@ -1,0 +1,1396 @@
+<!doctype html>
+<html lang="en-US">
+
+<!-- Mirrored from decentracloud.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Mar 2024 18:17:01 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>Decentracloud &#8211; Cloud Storage&#039;s Future on Multiple Networks</title>
+    <script>
+        var uicore_animations_list = {"Fading":{"fadeIn":"Fade In","fadeInDown":"Fade In Down","fadeInLeft":"Fade In Left","fadeInRight":"Fade In Right","fadeInUp":"Fade In Up"},"Zooming":{"zoomIn":"Zoom In","zoomInDown":"Zoom In Down","zoomInLeft":"Zoom In Left","zoomInRight":"Zoom In Right","zoomInUp":"Zoom In Up"},"Bouncing":{"bounceIn":"Bounce In","bounceInDown":"Bounce In Down","bounceInLeft":"Bounce In Left","bounceInRight":"Bounce In Right","bounceInUp":"Bounce In Up"},"Sliding":{"slideInDown":"Slide In Down","slideInLeft":"Slide In Left","slideInRight":"Slide In Right","slideInUp":"Slide In Up"},"Rotating":{"rotateIn":"Rotate In","rotateInDownLeft":"Rotate In Down Left","rotateInDownRight":"Rotate In Down Right","rotateInUpLeft":"Rotate In Up Left","rotateInUpRight":"Rotate In Up Right"},"Attention Seekers":{"bounce":"Bounce","flash":"Flash","pulse":"Pulse","rubberBand":"Rubber Band","shake":"Shake","headShake":"Head Shake","swing":"Swing","tada":"Tada","wobble":"Wobble","jello":"Jello"},"Light Speed":{"lightSpeedIn":"Light Speed In"},"Specials":{"rollIn":"Roll In"}};
+    </script>
+
+    <meta name='robots' content='noindex, nofollow' />
+<link rel="alternate" type="application/rss+xml" title="Decentracloud &raquo; Feed" href="https://decentracloud.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Decentracloud &raquo; Comments Feed" href="https://decentracloud.org/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/decentracloud.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<link rel='stylesheet' id='bdt-uikit-css' href='https://decentracloud.org/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.16.24' media='all' />
+<link rel='stylesheet' id='ep-helper-css' href='https://decentracloud.org/wp-content/plugins/bdthemes-element-pack/assets/css/ep-helper.css?ver=7.5.2' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://decentracloud.org/wp-includes/css/dist/block-library/style.min.css?ver=6.4.3' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='elementor-frontend-css' href='https://decentracloud.org/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.17.1' media='all' />
+<link rel='stylesheet' id='elementor-post-40-css' href='https://decentracloud.org/wp-content/uploads/elementor/css/post-40.css?ver=1711299259' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://decentracloud.org/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.23.0' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://decentracloud.org/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
+<link rel='stylesheet' id='elementor-post-36-css' href='https://decentracloud.org/wp-content/uploads/elementor/css/post-36.css?ver=1711298829' media='all' />
+<link rel='stylesheet' id='uicore_global-css' href='https://decentracloud.org/wp-content/uploads/uicore-global.css?ver=1058' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Fredoka%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CManrope%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CIBM+Plex+Mono%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CQuantico%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;ver=6.4.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://decentracloud.org/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://decentracloud.org/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://decentracloud.org/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src="https://decentracloud.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://decentracloud.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://decentracloud.org/wp-json/" /><link rel="alternate" type="application/json" href="https://decentracloud.org/wp-json/wp/v2/pages/36" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://decentracloud.org/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.3" />
+<link rel="canonical" href="https://decentracloud.org/" />
+<link rel='shortlink' href='https://decentracloud.org/' />
+<link rel="alternate" type="application/json+oembed" href="https://decentracloud.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdecentracloud.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://decentracloud.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdecentracloud.org%2F&amp;format=xml" />
+<meta name="generator" content="Elementor 3.17.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<meta name="theme-color" content="#3D5AFE" />
+        <link rel="shortcut icon" href="http://decentracloud.org/wp-content/uploads/2023/10/Dcloud.png" >
+		<link rel="icon" href="http://decentracloud.org/wp-content/uploads/2023/10/Dcloud.png" >
+		<link rel="apple-touch-icon" sizes="152x152" href="http://decentracloud.org/wp-content/uploads/2023/10/Dcloud.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="http://decentracloud.org/wp-content/uploads/2023/10/Dcloud.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="http://decentracloud.org/wp-content/uploads/2023/10/Dcloud.png">
+        <link rel="apple-touch-icon" href="http://decentracloud.org/wp-content/uploads/2023/10/Dcloud.png">
+        <link rel="icon" href="https://decentracloud.org/wp-content/uploads/2023/10/cropped-Dcloud-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://decentracloud.org/wp-content/uploads/2023/10/cropped-Dcloud-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://decentracloud.org/wp-content/uploads/2023/10/cropped-Dcloud-180x180.png" />
+<meta name="msapplication-TileImage" content="https://decentracloud.org/wp-content/uploads/2023/10/cropped-Dcloud-270x270.png" />
+
+</head>
+
+<body class="home page-template-default page page-id-36 wp-embed-responsive ui-a-dsmm-slide  elementor-default elementor-kit-7 elementor-page elementor-page-36">
+		<!-- 1.1 uicore_before_body_content -->	<div class="uicore-body-content">
+		<!-- 1.2 uicore_before_page_content -->		<div id="uicore-page">
+		
+        <div data-uils="header" data-uils-title="Header" id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite" class="uicore uicore-navbar elementor-section uicore-h-classic uicore-sticky ui-smart-sticky uicore-transparent "><div class="uicore-header-wrapper">
+            <nav class="uicore elementor-container">
+            		 <div class="uicore-branding" data-uils="header-branding" data-uils-title="Site Logo">
+                
+			<a href="https://decentracloud.org/" rel="home">
+                <img class="uicore uicore-logo uicore-main" src="http://decentracloud.org/wp-content/uploads/2023/10/Dcloud-2.png" alt="Decentracloud"/>
+				<img class="uicore uicore-logo uicore-second" src="http://decentracloud.org/wp-content/uploads/2023/10/Dcloud-2.png" alt="Decentracloud" />
+				<img class="uicore uicore-logo uicore-mobile-main" src="http://decentracloud.org/wp-content/uploads/2023/10/Dcloud-2.png" alt="Decentracloud" />
+				<img class="uicore uicore-logo uicore-mobile-second" src="http://decentracloud.org/wp-content/uploads/2023/10/Dcloud-2.png" alt="Decentracloud" />
+			</a>
+
+		        </div>
+		        <div class='uicore-nav-menu'>
+            <div class="uicore-menu-container uicore-nav"><ul data-uils="header-menu" data-uils-title="Navigation Menu" class="uicore-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-36 current_page_item menu-item-41"><a href="https://decentracloud.org/" aria-current="page"><span class="ui-menu-item-wrapper">Home</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a href="#WHY"><span class="ui-menu-item-wrapper">About</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44"><a href="#STAKING"><span class="ui-menu-item-wrapper">Stake</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-170"><a href="#Tokenomics"><span class="ui-menu-item-wrapper">Tokenomics</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-171"><a href="#Roadmap"><span class="ui-menu-item-wrapper">Roadmap</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42"><a href="#Security"><span class="ui-menu-item-wrapper">Security</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-193"><a href="https://decentracloud.gitbook.io/whitepaper/"><span class="ui-menu-item-wrapper">Whitepaper</span></a></li>
+</ul></div><div class="uicore uicore-extra" data-uils="header_extra" data-uils-title="Header Extras">            <div class="uicore-cta-wrapper">
+				<a href="https://raydium.io/swap/?outputCurrency=fillhere;refId=0xDCC84A0F00E88E27dAbb712E50AA2a5cdd745e89"
+					target="_self"
+					class="uicore-btn ">
+                    <span class="elementor-button-text">
+						BUY $DCLOUD                    </span>
+				</a>
+            </div>
+        </div>        </div>
+		            <button type="button" class="uicore-toggle uicore-ham" aria-label="mobile-menu">
+                <span class="bars">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </span>
+            </button>
+                        </nav>
+
+            </div>
+                    </div><!-- #wrapper-navbar end -->
+        <!-- 1.3 uicore_page -->			<div id="content" class="uicore-content">
+
+			<script id="uicore-page-transition">window.onload=window.onpageshow= function() {  }; </script><!-- 1.4 uicore_before_content --><div id="primary" class="content-area">
+
+	        <article id="post-36" class="post-36 page type-page status-publish hentry">
+            <main class="entry-content">
+                		<div data-elementor-type="wp-page" data-elementor-id="36" class="elementor elementor-36">
+									<div class="elementor-section elementor-top-section elementor-element elementor-element-9b8de0d elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="9b8de0d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-02de84a" data-id="02de84a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d635d2f elementor-widget elementor-widget-html" data-id="d635d2f" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1KJ532TWNB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1KJ532TWNB');
+</script>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2ef833b elementor-widget__width-auto animated-fast elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="2ef833b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://decentracloud.org/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-circle"></i>						</span>
+										<span class="elementor-icon-list-text">CA : </span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-df778fd elementor-widget elementor-widget-spacer" data-id="df778fd" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 25-10-2023 */
+.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));--align-self:var(--container-widget-align-self,initial);--flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container{height:100%;width:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}.e-con-inner>.elementor-widget-spacer.elementor-widget-empty,.e-con>.elementor-widget-spacer.elementor-widget-empty{position:relative;min-height:22px;min-width:22px}.e-con-inner>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon,.e-con>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;padding:0;width:22px;height:22px}</style>		<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7f30da1 elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit  ui-split-animate ui-splitby-lines elementor-widget elementor-widget-heading" data-id="7f30da1" data-element_type="widget" data-settings="{&quot;ui_animate_split&quot;:&quot;ui-split-animate&quot;,&quot;ui_animate_split_by&quot;:&quot;lines&quot;,&quot;ui_animate_split_style&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 25-10-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h1 class="elementor-heading-title elementor-size-default">Cloud Storage's Future on Multiple Networks</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9f7abad elementor-widget elementor-widget-spacer" data-id="9f7abad" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0c70ee4 elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="0c70ee4" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 25-10-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>With just one click, you can easily communicate with any application or asset across chains when using DecentraCloud.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-01d0213 elementor-widget elementor-widget-spacer" data-id="01d0213" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6e8cff1 elementor-widget__width-initial elementor-widget elementor-widget-bdt-advanced-button" data-id="6e8cff1" data-element_type="widget" data-widget_type="bdt-advanced-button.default">
+				<div class="elementor-widget-container">
+					<div class="bdt-ep-button-wrapper">
+			<a href="https://t.me/DecentraCloud" class="bdt-ep-button bdt-ep-button-effect-f bdt-ep-button-size-md elementor-animation-wobble-top">
+						<div class="bdt-ep-button-content-wrapper bdt-flex bdt-flex-middle bdt-flex-center  " data-text="Join Community">
+							<div class="bdt-ep-button-icon bdt-flex-center bdt-flex-align-right">
+					<div class="bdt-ep-button-icon-inner">
+
+					<i aria-hidden="true" class="fa-fw fab fa-telegram"></i>
+					</div>
+				</div>
+			
+			<div class="bdt-ep-button-text">
+
+                <span class="avdbtn-text">Join Community</span>
+
+				            </div>
+
+			
+		</div>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-8f881c2 elementor-widget-divider--view-line_icon elementor-widget__width-initial elementor-view-default elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="8f881c2" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 25-10-2023 */
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-bottom:0;flex-grow:1;border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<div class="elementor-icon elementor-divider__element">
+					<i aria-hidden="true" class="fas fa-stop-circle"></i></div>
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d7dd6d5 elementor-widget__width-initial elementor-widget elementor-widget-bdt-advanced-button" data-id="d7dd6d5" data-element_type="widget" data-widget_type="bdt-advanced-button.default">
+				<div class="elementor-widget-container">
+					<div class="bdt-ep-button-wrapper">
+			<a href="https://raydium.io/swap/?outputCurrency=fillhere;refId=0xDCC84A0F00E88E27dAbb712E50AA2a5cdd745e89" class="bdt-ep-button bdt-ep-button-effect-f bdt-ep-button-size-md elementor-animation-wobble-top">
+						<div class="bdt-ep-button-content-wrapper bdt-flex bdt-flex-middle bdt-flex-center  " data-text="BUY $DCLOUD">
+							<div class="bdt-ep-button-icon bdt-flex-center bdt-flex-align-right">
+					<div class="bdt-ep-button-icon-inner">
+
+					<i aria-hidden="true" class="fa-fw fab fa-renren"></i>
+					</div>
+				</div>
+			
+			<div class="bdt-ep-button-text">
+
+                <span class="avdbtn-text">BUY $DCLOUD</span>
+
+				            </div>
+
+			
+		</div>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a2646c2 elementor-widget elementor-widget-spacer" data-id="a2646c2" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-68f3515 animated-fast elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="68f3515" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:1000}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-564ba6d" data-id="564ba6d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-df57eac elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="df57eac" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 25-10-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img fetchpriority="high" decoding="async" width="512" height="512" src="https://decentracloud.org/wp-content/uploads/2023/10/logo512.png" class="attachment-full size-full wp-image-57" alt="" srcset="https://decentracloud.org/wp-content/uploads/2023/10/logo512.png 512w, https://decentracloud.org/wp-content/uploads/2023/10/logo512-300x300.png 300w, https://decentracloud.org/wp-content/uploads/2023/10/logo512-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-4f42a0c elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="4f42a0c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="512" height="512" src="https://decentracloud.org/wp-content/uploads/2023/10/logo512.webp" class="attachment-full size-full wp-image-56" alt="" srcset="https://decentracloud.org/wp-content/uploads/2023/10/logo512.webp 512w, https://decentracloud.org/wp-content/uploads/2023/10/logo512-300x300.webp 300w, https://decentracloud.org/wp-content/uploads/2023/10/logo512-150x150.webp 150w" sizes="(max-width: 512px) 100vw, 512px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-bdef832 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="bdef832" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="300" height="300" src="https://decentracloud.org/wp-content/uploads/2023/10/coinmarketcap-logo-064D167A0E-seeklogo.com_.png" class="attachment-full size-full wp-image-55" alt="" srcset="https://decentracloud.org/wp-content/uploads/2023/10/coinmarketcap-logo-064D167A0E-seeklogo.com_.png 300w, https://decentracloud.org/wp-content/uploads/2023/10/coinmarketcap-logo-064D167A0E-seeklogo.com_-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-370dbe8 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="370dbe8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="1201" height="1201" src="https://decentracloud.org/wp-content/uploads/2023/10/coingecko__78343.png" class="attachment-full size-full wp-image-58" alt="" srcset="https://decentracloud.org/wp-content/uploads/2023/10/coingecko__78343.png 1201w, https://decentracloud.org/wp-content/uploads/2023/10/coingecko__78343-300x300.png 300w, https://decentracloud.org/wp-content/uploads/2023/10/coingecko__78343-1024x1024.png 1024w, https://decentracloud.org/wp-content/uploads/2023/10/coingecko__78343-150x150.png 150w, https://decentracloud.org/wp-content/uploads/2023/10/coingecko__78343-768x768.png 768w, https://decentracloud.org/wp-content/uploads/2023/10/coingecko__78343-650x650.png 650w" sizes="(max-width: 1201px) 100vw, 1201px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-50b9c0a elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget elementor-widget-text-editor" data-id="50b9c0a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Partnered with 10+ top companies around the world.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-ca72299 elementor-widget__width-auto elementor-absolute e-transform elementor-widget elementor-widget-image" data-id="ca72299" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_transform_flipX_effect&quot;:&quot;transform&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="448" height="669" src="https://decentracloud.org/wp-content/uploads/2023/10/Investment-Management-Hero-BG-Image.webp" class="attachment-full size-full wp-image-16" alt="" srcset="https://decentracloud.org/wp-content/uploads/2023/10/Investment-Management-Hero-BG-Image.webp 448w, https://decentracloud.org/wp-content/uploads/2023/10/Investment-Management-Hero-BG-Image-201x300.webp 201w, https://decentracloud.org/wp-content/uploads/2023/10/Investment-Management-Hero-BG-Image-435x650.webp 435w" sizes="(max-width: 448px) 100vw, 448px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-457086a elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-image" data-id="457086a" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="448" height="669" src="https://decentracloud.org/wp-content/uploads/2023/10/Investment-Management-Hero-BG-Image.webp" class="attachment-full size-full wp-image-16" alt="" srcset="https://decentracloud.org/wp-content/uploads/2023/10/Investment-Management-Hero-BG-Image.webp 448w, https://decentracloud.org/wp-content/uploads/2023/10/Investment-Management-Hero-BG-Image-201x300.webp 201w, https://decentracloud.org/wp-content/uploads/2023/10/Investment-Management-Hero-BG-Image-435x650.webp 435w" sizes="(max-width: 448px) 100vw, 448px" />															</div>
+				</div>
+				<div class="elementor-section elementor-inner-section elementor-element elementor-element-edc88ff elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="edc88ff" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-9deb744" data-id="9deb744" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a8ba0d1 elementor-widget elementor-widget-video" data-id="a8ba0d1" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 25-10-2023 */
+.elementor-widget-video .elementor-widget-container{overflow:hidden;transform:translateZ(0)}.elementor-widget-video .elementor-wrapper{aspect-ratio:var(--video-aspect-ratio)}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{height:100%;width:100%;display:flex;border:none;background-color:#000}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay{position:absolute;top:0;right:0;bottom:0;left:0;background-size:cover;background-position:50%}.elementor-widget-video .elementor-custom-embed-image-overlay{cursor:pointer;text-align:center}.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i{opacity:1}.elementor-widget-video .elementor-custom-embed-image-overlay img{display:block;width:100%;aspect-ratio:var(--video-aspect-ratio);-o-object-fit:cover;object-fit:cover;-o-object-position:center center;object-position:center center}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-custom-embed-image-overlay{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-custom-embed-image-overlay img{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .e-hosted-video .elementor-video{-o-object-fit:cover;object-fit:cover}.e-con-inner>.elementor-widget-video,.e-con>.elementor-widget-video{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="e-hosted-video elementor-wrapper elementor-open-inline">
+					<video class="elementor-video" src="https://decentracloud.org/wp-content/uploads/2023/10/Dcloud.mp4" autoplay="" loop="" muted="muted" playsinline="" controlsList="nodownload"></video>
+				</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</div>
+					</div>
+		</div>
+							</div>
+		</div>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c52771b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c52771b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-4ce3b94" data-id="4ce3b94" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f3e95ec elementor-widget elementor-widget-menu-anchor" data-id="f3e95ec" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 25-10-2023 */
+body.elementor-page .elementor-widget-menu-anchor{margin-bottom:0}</style>		<div id="Security" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0469471 elementor-widget elementor-widget-heading" data-id="0469471" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Security Certificate</h4>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-15b0471" data-id="15b0471" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b6a1c33 elementor-widget elementor-widget-image" data-id="b6a1c33" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://t.me/gemsbynikisha/344">
+							<img loading="lazy" decoding="async" width="360" height="140" src="https://decentracloud.org/wp-content/uploads/2023/10/Security.jpg" class="elementor-animation-shrink attachment-full size-full wp-image-78" alt="" srcset="https://decentracloud.org/wp-content/uploads/2023/10/Security.jpg 360w, https://decentracloud.org/wp-content/uploads/2023/10/Security-300x117.jpg 300w" sizes="(max-width: 360px) 100vw, 360px" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-243f34a" data-id="243f34a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-cc206f1 elementor-widget elementor-widget-image" data-id="cc206f1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://github.com/interfinetwork/project-delivery-data/blob/main/DecentraCloud/DecentraCloud_AuditReport_InterFi.pdf">
+							<img loading="lazy" decoding="async" width="360" height="140" src="https://decentracloud.org/wp-content/uploads/2023/10/Security-1.jpg" class="elementor-animation-shrink attachment-full size-full wp-image-80" alt="" srcset="https://decentracloud.org/wp-content/uploads/2023/10/Security-1.jpg 360w, https://decentracloud.org/wp-content/uploads/2023/10/Security-1-300x117.jpg 300w" sizes="(max-width: 360px) 100vw, 360px" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-10de13d" data-id="10de13d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-487b930 elementor-widget elementor-widget-image" data-id="487b930" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://pinksale.notion.site/DecentraCloud-KYC-Verification-c2929f9b327c467babb4ea3241a95575">
+							<img loading="lazy" decoding="async" width="360" height="140" src="https://decentracloud.org/wp-content/uploads/2023/10/Security-2.jpg" class="elementor-animation-shrink attachment-full size-full wp-image-79" alt="" srcset="https://decentracloud.org/wp-content/uploads/2023/10/Security-2.jpg 360w, https://decentracloud.org/wp-content/uploads/2023/10/Security-2-300x117.jpg 300w" sizes="(max-width: 360px) 100vw, 360px" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-section elementor-top-section elementor-element elementor-element-74f8c6c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="74f8c6c" data-element_type="section" id="overview" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3516f4a" data-id="3516f4a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-bb9ace5 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="bb9ace5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-02faa1c" data-id="02faa1c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-86d6a0c elementor-widget__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="86d6a0c" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-circle"></i>						</span>
+										<span class="elementor-icon-list-text">DCLOUD FOR DEVELOPERS</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-641f777 elementor-widget elementor-widget-heading" data-id="641f777" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Develop cutting-edge apps with DecentraCloud protection.
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-41f56bb elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="41f56bb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Since DecentraCloud transactions settle on Multi Network instantaneously, you may construct apps and digital assets that are tied to Multi Network security.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-e27f41c elementor-widget__width-initial elementor-widget elementor-widget-bdt-advanced-button" data-id="e27f41c" data-element_type="widget" data-widget_type="bdt-advanced-button.default">
+				<div class="elementor-widget-container">
+					<div class="bdt-ep-button-wrapper">
+			<a href="https://decentracloud.gitbook.io/whitepaper/" class="bdt-ep-button bdt-ep-button-effect-f bdt-ep-button-size-md elementor-animation-wobble-top">
+						<div class="bdt-ep-button-content-wrapper bdt-flex bdt-flex-middle bdt-flex-center  " data-text="Learn More">
+							<div class="bdt-ep-button-icon bdt-flex-center bdt-flex-align-right">
+					<div class="bdt-ep-button-icon-inner">
+
+					<i aria-hidden="true" class="fa-fw fas fa-plus-circle"></i>
+					</div>
+				</div>
+			
+			<div class="bdt-ep-button-text">
+
+                <span class="avdbtn-text">Learn More</span>
+
+				            </div>
+
+			
+		</div>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-10c48a8" data-id="10c48a8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-956ebbb elementor-widget elementor-widget-image" data-id="956ebbb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="660" height="940" src="https://decentracloud.org/wp-content/uploads/2023/10/Security.png" class="attachment-full size-full wp-image-90" alt="" srcset="https://decentracloud.org/wp-content/uploads/2023/10/Security.png 660w, https://decentracloud.org/wp-content/uploads/2023/10/Security-211x300.png 211w, https://decentracloud.org/wp-content/uploads/2023/10/Security-456x650.png 456w" sizes="(max-width: 660px) 100vw, 660px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</div>
+				<div class="elementor-section elementor-top-section elementor-element elementor-element-8c2bdc4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8c2bdc4" data-element_type="section" id="services" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f0725bf" data-id="f0725bf" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-cf17b39 elementor-widget elementor-widget-menu-anchor" data-id="cf17b39" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="WHY" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0713d76 elementor-widget__width-auto animated-fast elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="0713d76" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-circle"></i>						</span>
+										<span class="elementor-icon-list-text">WHY DCLOUD?</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b986831 elementor-widget elementor-widget-spacer" data-id="b986831" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5523ffc elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit  ui-split-animate ui-splitby-lines elementor-widget elementor-widget-heading" data-id="5523ffc" data-element_type="widget" data-settings="{&quot;ui_animate_split&quot;:&quot;ui-split-animate&quot;,&quot;ui_animate_split_by&quot;:&quot;lines&quot;,&quot;ui_animate_split_style&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Decentracloud Services</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f2cff07 elementor-widget elementor-widget-spacer" data-id="f2cff07" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0b88b94 elementor-widget__width-initial elementor-widget-mobile__width-inherit animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="0b88b94" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Your Doorway to Safe and Lucrative Development</p>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-b1a696f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b1a696f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-8f2ce8e" data-id="8f2ce8e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a3ee91e animated-fast e-transform bdt-icon-type-image elementor-position-top bdt-icon-effect-none elementor-invisible elementor-widget elementor-widget-bdt-advanced-icon-box" data-id="a3ee91e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:800,&quot;_transform_translateY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-10,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="bdt-advanced-icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="bdt-ep-advanced-icon-box">
+
+							
+					<div class="bdt-ep-advanced-icon-box-icon">
+				<span class="bdt-ep-advanced-icon-box-icon-wrap">
+
+
+											<img decoding="async" src="https://decentracloud.org/wp-content/uploads/2023/10/icons8-exchange-100.png" alt="Quick Asset Trade-In">
+									</span>
+			</div>
+		
+				
+			<div class="bdt-ep-advanced-icon-box-content">
+
+									
+					<h4 class="bdt-ep-advanced-icon-box-title">
+				<span >
+					Quick Asset Trade-In				</span>
+			</h4>
+		
+
+		
+					
+				
+									<div class="bdt-ep-advanced-icon-box-description">
+						<p>Immediately transfer assets between sovereign networks by utilising safe stablecoins as an extra liquidity source.</p>					</div>
+				
+							</div>
+		</div>
+
+		
+		
+		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-8b868bb" data-id="8b868bb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b2058a6 animated-fast e-transform bdt-icon-type-image elementor-position-top bdt-icon-effect-none elementor-invisible elementor-widget elementor-widget-bdt-advanced-icon-box" data-id="b2058a6" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:900,&quot;_transform_translateY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-10,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="bdt-advanced-icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="bdt-ep-advanced-icon-box">
+
+							
+					<div class="bdt-ep-advanced-icon-box-icon">
+				<span class="bdt-ep-advanced-icon-box-icon-wrap">
+
+
+											<img decoding="async" src="https://decentracloud.org/wp-content/uploads/2023/10/icons8-scale-100.png" alt="Horizontal Scalability">
+									</span>
+			</div>
+		
+				
+			<div class="bdt-ep-advanced-icon-box-content">
+
+									
+					<h4 class="bdt-ep-advanced-icon-box-title">
+				<span >
+					Horizontal Scalability				</span>
+			</h4>
+		
+
+		
+					
+				
+									<div class="bdt-ep-advanced-icon-box-description">
+						<p>Twin-Turbo Consensus allows for horizontal company scaling. less expensive acquisition of secure validator and relayer sets.</p>					</div>
+				
+							</div>
+		</div>
+
+		
+		
+		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3e3f199" data-id="3e3f199" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5d09509 animated-fast e-transform bdt-icon-type-image elementor-position-top bdt-icon-effect-none elementor-invisible elementor-widget elementor-widget-bdt-advanced-icon-box" data-id="5d09509" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:1000,&quot;_transform_translateY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-10,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="bdt-advanced-icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="bdt-ep-advanced-icon-box">
+
+							
+					<div class="bdt-ep-advanced-icon-box-icon">
+				<span class="bdt-ep-advanced-icon-box-icon-wrap">
+
+
+											<img decoding="async" src="https://decentracloud.org/wp-content/uploads/2023/10/icons8-cashbook-100.png" alt="Lower Operating Expenses">
+									</span>
+			</div>
+		
+				
+			<div class="bdt-ep-advanced-icon-box-content">
+
+									
+					<h4 class="bdt-ep-advanced-icon-box-title">
+				<span >
+					Lower Operating Expenses				</span>
+			</h4>
+		
+
+		
+					
+				
+									<div class="bdt-ep-advanced-icon-box-description">
+						<p>Maximize business profitability by lowering payment fees and reducing third-party intrusion.</p>					</div>
+				
+							</div>
+		</div>
+
+		
+		
+		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</div>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-793376e elementor-section-full_width elementor-reverse-mobile elementor-section-height-default elementor-section-height-default" data-id="793376e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-fedcd1b animated-fast elementor-invisible" data-id="fedcd1b" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-56d540d elementor-widget elementor-widget-image" data-id="56d540d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="800" height="600" src="https://decentracloud.org/wp-content/uploads/2023/10/Dcloud-Banner-2.gif" class="attachment-full size-full wp-image-110" alt="" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8038cd0 ui-col-align-right" data-id="8038cd0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-70b9b50 elementor-widget elementor-widget-menu-anchor" data-id="70b9b50" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="STAKING" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a31c845 elementor-widget__width-auto animated-fast elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="a31c845" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-circle"></i>						</span>
+										<span class="elementor-icon-list-text">MEET 'STAKING'</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-340706c  ui-split-animate ui-splitby-lines elementor-widget elementor-widget-heading" data-id="340706c" data-element_type="widget" data-settings="{&quot;ui_animate_split&quot;:&quot;ui-split-animate&quot;,&quot;ui_animate_split_by&quot;:&quot;lines&quot;,&quot;ui_animate_split_style&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Participate in protocol to get $DCLOUD.</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-be83e18 animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="be83e18" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Maintain the security and consensus of the network by retaining and temporarily locking $DCLOUD, our native currency. Over a thousand $DCLOUD have been given out as protocol rewards.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-37deacf elementor-widget__width-initial elementor-widget elementor-widget-bdt-advanced-button" data-id="37deacf" data-element_type="widget" data-widget_type="bdt-advanced-button.default">
+				<div class="elementor-widget-container">
+					<div class="bdt-ep-button-wrapper">
+			<a href="https://decentracloud.gitbook.io/whitepaper/" class="bdt-ep-button bdt-ep-button-effect-f bdt-ep-button-size-md elementor-animation-wobble-top">
+						<div class="bdt-ep-button-content-wrapper bdt-flex bdt-flex-middle bdt-flex-center  " data-text="Learn More">
+							<div class="bdt-ep-button-icon bdt-flex-center bdt-flex-align-right">
+					<div class="bdt-ep-button-icon-inner">
+
+					<i aria-hidden="true" class="fa-fw fas fa-plus-circle"></i>
+					</div>
+				</div>
+			
+			<div class="bdt-ep-button-text">
+
+                <span class="avdbtn-text">Learn More</span>
+
+				            </div>
+
+			
+		</div>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-72ccd8b elementor-section-full_width elementor-reverse-mobile elementor-section-height-default elementor-section-height-default" data-id="72ccd8b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5236944 ui-col-align-right" data-id="5236944" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9059007 elementor-widget__width-auto animated-fast elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="9059007" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-circle"></i>						</span>
+										<span class="elementor-icon-list-text">ENHANCE THE SYSTEM</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-22e61bc  ui-split-animate ui-splitby-lines elementor-widget elementor-widget-heading" data-id="22e61bc" data-element_type="widget" data-settings="{&quot;ui_animate_split&quot;:&quot;ui-split-animate&quot;,&quot;ui_animate_split_by&quot;:&quot;lines&quot;,&quot;ui_animate_split_style&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Interoperability Can Improve Your dApp.</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-cd9238f animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="cd9238f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Across chains, dApps may communicate and make calls that are Turing-complete thanks to a permissionless proof-of-stake transport layer.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c23c1f8 elementor-widget elementor-widget-bdt-accordion" data-id="c23c1f8" data-element_type="widget" data-widget_type="bdt-accordion.default">
+				<div class="elementor-widget-container">
+			        <div class="bdt-ep-accordion-container">
+            <div id="bdt-ep-accordion-c23c1f8" class="bdt-ep-accordion bdt-accordion" data-bdt-accordion="{&quot;collapsible&quot;:true,&quot;multiple&quot;:false,&quot;transition&quot;:&quot;ease-in-out&quot;}" data-settings="{&quot;id&quot;:&quot;bdt-ep-accordion-c23c1f8&quot;,&quot;activeHash&quot;:&quot;no&quot;,&quot;activeScrollspy&quot;:null,&quot;hashTopOffset&quot;:false,&quot;hashScrollspyTime&quot;:false}">
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-simplified-passing-of-messages" data-accordion-index="0" data-title="simplified-passing-of-messages" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                Simplified Passing of Messages                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>With dApps that can execute cross-chain services, send and receive random messages, and offer a one-click user experience, you can go beyond bridges.</p>                        </div>
+                    </div>
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-enabling-transfers-of-tokens" data-accordion-index="1" data-title="enabling-transfers-of-tokens" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                Enabling Transfers of Tokens                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>Effortlessly route assets between chains any-to-any without passing through the native chain at each bridge or swap.</p>                        </div>
+                    </div>
+                            </div>
+        </div>
+		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8c862b7 animated-fast elementor-invisible" data-id="8c862b7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-fd3dae0 elementor-widget elementor-widget-image" data-id="fd3dae0" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="800" height="600" src="https://decentracloud.org/wp-content/uploads/2023/10/unnamed-file.gif" class="attachment-full size-full wp-image-65" alt="" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-40b8fc2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="40b8fc2" data-element_type="section" id="testimonials" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9a0ff4c animated-fast elementor-invisible" data-id="9a0ff4c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+								<div class="elementor-element elementor-element-f02f3e6 elementor-widget elementor-widget-menu-anchor" data-id="f02f3e6" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="Tokenomics" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2f74cb4 elementor-widget__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="2f74cb4" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-circle"></i>						</span>
+										<span class="elementor-icon-list-text">$DCLOUD METRICS</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3b2c7b1 elementor-widget elementor-widget-heading" data-id="3b2c7b1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">$DCLOUD Tokenomics</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-32bf668 animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="32bf668" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>The $DCLOUD coin, which serves as a vital component for innovation, participation incentives, and frictionless communication inside the decentralised environment, is at the heart of the DecentraCloud ecosystem.</p>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-58eb95d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="58eb95d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-70de682" data-id="70de682" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3b042dc elementor-widget elementor-widget-bdt-accordion" data-id="3b042dc" data-element_type="widget" data-widget_type="bdt-accordion.default">
+				<div class="elementor-widget-container">
+			        <div class="bdt-ep-accordion-container">
+            <div id="bdt-ep-accordion-3b042dc" class="bdt-ep-accordion bdt-accordion" data-bdt-accordion="{&quot;collapsible&quot;:true,&quot;multiple&quot;:false,&quot;transition&quot;:&quot;ease-in-out&quot;}" data-settings="{&quot;id&quot;:&quot;bdt-ep-accordion-3b042dc&quot;,&quot;activeHash&quot;:&quot;no&quot;,&quot;activeScrollspy&quot;:null,&quot;hashTopOffset&quot;:false,&quot;hashScrollspyTime&quot;:false}">
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-token-name" data-accordion-index="0" data-title="token-name" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                TOKEN NAME                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>DecentraCloud</p>                        </div>
+                    </div>
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-token-symbol" data-accordion-index="1" data-title="token-symbol" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                TOKEN SYMBOL                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>$DCLOUD</p>                        </div>
+                    </div>
+                            </div>
+        </div>
+		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a695113" data-id="a695113" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5810790 elementor-widget elementor-widget-bdt-accordion" data-id="5810790" data-element_type="widget" data-widget_type="bdt-accordion.default">
+				<div class="elementor-widget-container">
+			        <div class="bdt-ep-accordion-container">
+            <div id="bdt-ep-accordion-5810790" class="bdt-ep-accordion bdt-accordion" data-bdt-accordion="{&quot;collapsible&quot;:true,&quot;multiple&quot;:false,&quot;transition&quot;:&quot;ease-in-out&quot;}" data-settings="{&quot;id&quot;:&quot;bdt-ep-accordion-5810790&quot;,&quot;activeHash&quot;:&quot;no&quot;,&quot;activeScrollspy&quot;:null,&quot;hashTopOffset&quot;:false,&quot;hashScrollspyTime&quot;:false}">
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-total-supply" data-accordion-index="0" data-title="total-supply" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                TOTAL SUPPLY                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>10,000,000</p>                        </div>
+                    </div>
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-total-tax" data-accordion-index="1" data-title="total-tax" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                TOTAL TAX                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>0% (BUY/SELL)</p>                        </div>
+                    </div>
+                            </div>
+        </div>
+		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-ebfaae7 elementor-widget elementor-widget-image" data-id="ebfaae7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="1000" height="857" src="https://decentracloud.org/wp-content/uploads/2024/02/Dcloud-allocation-1024x878.png" class="attachment-large size-large wp-image-228" alt="" srcset="https://decentracloud.org/wp-content/uploads/2024/02/Dcloud-allocation-1024x878.png 1024w, https://decentracloud.org/wp-content/uploads/2024/02/Dcloud-allocation-300x257.png 300w, https://decentracloud.org/wp-content/uploads/2024/02/Dcloud-allocation-768x658.png 768w, https://decentracloud.org/wp-content/uploads/2024/02/Dcloud-allocation-650x557.png 650w, https://decentracloud.org/wp-content/uploads/2024/02/Dcloud-allocation.png 1050w" sizes="(max-width: 1000px) 100vw, 1000px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4503eae elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4503eae" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dbcffe5" data-id="dbcffe5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-689c300 elementor-widget elementor-widget-menu-anchor" data-id="689c300" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+					<div id="Roadmap" class="elementor-menu-anchor"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-61cfd4b animated-fast elementor-invisible elementor-widget elementor-widget-heading" data-id="61cfd4b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Our Roadmap</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a3884da elementor-widget-divider--view-line_icon elementor-view-default elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="a3884da" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<div class="elementor-icon elementor-divider__element">
+					<i aria-hidden="true" class="fas fa-layer-group"></i></div>
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-2cdbea1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2cdbea1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c3f3cea" data-id="c3f3cea" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d95d5ea elementor-widget elementor-widget-heading" data-id="d95d5ea" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Phase I</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f5c5d0b elementor-widget-divider--view-line_text elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="f5c5d0b" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<span class="elementor-divider__text elementor-divider__element">
+				Q1, 2024				</span>
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-16e9c96 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="16e9c96" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Decentracloud initial Idea</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Team alignment</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Concept building</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Website development</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Whitepaper creation</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Marketing collaboration</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a6fbc98" data-id="a6fbc98" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-ecdf495 elementor-widget elementor-widget-heading" data-id="ecdf495" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Phase II</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-28f9c8c elementor-widget-divider--view-line_text elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="28f9c8c" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<span class="elementor-divider__text elementor-divider__element">
+				Q2, 2024				</span>
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3a7123f elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3a7123f" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Contract SAFU & audited</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">KYC verification</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Marketing expansion</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">ICO on pinksale</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Listing On DEX</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">CMC & CG listing</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-360e0b8" data-id="360e0b8" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-46d8510 elementor-widget elementor-widget-heading" data-id="46d8510" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Phase III</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-33e9408 elementor-widget-divider--view-line_text elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="33e9408" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<span class="elementor-divider__text elementor-divider__element">
+				Q3, 2024				</span>
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e48f792 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="e48f792" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Cloud Computing</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Cloud Storage</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Multi-Chain architecture</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Expand networks</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Staking & Yield Farming</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>						</span>
+										<span class="elementor-icon-list-text">Introduce Roadmap v.02</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		            </main>
+        </article>
+        
+</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	            <footer id="uicore-tb-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" >
+			    		<div data-elementor-type="uicore-tb" data-elementor-id="40" class="elementor elementor-40">
+									<div class="elementor-section elementor-top-section elementor-element elementor-element-c3f226f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c3f226f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;clouds&quot;}">
+							<div class="elementor-background-overlay"></div>
+						<div class="elementor-shape elementor-shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8" preserveAspectRatio="xMidYMax slice">
+  <path class="elementor-shape-fill" d="M0 0v6.7c1.9-.8 4.7-1.4 8.5-1 9.5 1.1 11.1 6 11.1 6s2.1-.7 4.3-.2c2.1.5 2.8 2.6 2.8 2.6s.2-.5 1.4-.7c1.2-.2 1.7.2 1.7.2s0-2.1 1.9-2.8c1.9-.7 3.6.7 3.6.7s.7-2.9 3.1-4.1 4.7 0 4.7 0 1.2-.5 2.4 0 1.7 1.4 1.7 1.4h1.4c.7 0 1.2.7 1.2.7s.8-1.8 4-2.2c3.5-.4 5.3 2.4 6.2 4.4.4-.4 1-.7 1.8-.9 2.8-.7 4 .7 4 .7s1.7-5 11.1-6c9.5-1.1 12.3 3.9 12.3 3.9s1.2-4.8 5.7-5.7c4.5-.9 6.8 1.8 6.8 1.8s.6-.6 1.5-.9c.9-.2 1.9-.2 1.9-.2s5.2-6.4 12.6-3.3c7.3 3.1 4.7 9 4.7 9s1.9-.9 4 0 2.8 2.4 2.8 2.4 1.9-1.2 4.5-1.2 4.3 1.2 4.3 1.2.2-1 1.4-1.7 2.1-.7 2.1-.7-.5-3.1 2.1-5.5 5.7-1.4 5.7-1.4 1.5-2.3 4.2-1.1c2.7 1.2 1.7 5.2 1.7 5.2s.3-.1 1.3.5c.5.4.8.8.9 1.1.5-1.4 2.4-5.8 8.4-4 7.1 2.1 3.5 8.9 3.5 8.9s.8-.4 2 0 1.1 1.1 1.1 1.1 1.1-1.1 2.3-1.1 2.1.5 2.1.5 1.9-3.6 6.2-1.2 1.9 6.4 1.9 6.4 2.6-2.4 7.4 0c3.4 1.7 3.9 4.9 3.9 4.9s3.3-6.9 10.4-7.9 11.5 2.6 11.5 2.6.8 0 1.2.2c.4.2.9.9.9.9s4.4-3.1 8.3.2c1.9 1.7 1.5 5 1.5 5s.3-1.1 1.6-1.4c1.3-.3 2.3.2 2.3.2s-.1-1.2.5-1.9 1.9-.9 1.9-.9-4.7-9.3 4.4-13.4c5.6-2.5 9.2.9 9.2.9s5-6.2 15.9-6.2 16.1 8.1 16.1 8.1.7-.2 1.6-.4V0H0z"/>
+</svg>
+		</div>
+					<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1635e19" data-id="1635e19" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-1ffe472 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1ffe472" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-7849bd4" data-id="7849bd4" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1f2f1cf elementor-widget elementor-widget-heading" data-id="1f2f1cf" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">OVERVIEW</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-283a3a9 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="283a3a9" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://decentracloud.gitbook.io/whitepaper/get-started/about-decentracloud">
+
+											<span class="elementor-icon-list-text">About us</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://decentracloud.gitbook.io/whitepaper/get-started/decentracloud-infrastructure">
+
+											<span class="elementor-icon-list-text">Infrastructure</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://decentracloud.gitbook.io/whitepaper/get-started/foundational-technology">
+
+											<span class="elementor-icon-list-text">Technology</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://decentracloud.gitbook.io/whitepaper">
+
+											<span class="elementor-icon-list-text">Whitepaper</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-0b2a3d8" data-id="0b2a3d8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d8f0a23 elementor-widget elementor-widget-heading" data-id="d8f0a23" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">PRODUCT</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-23a12fe elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="23a12fe" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://decentracloud.gitbook.io/whitepaper/products/decentracloud-dapp-overview">
+
+											<span class="elementor-icon-list-text">Dapp</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://decentracloud.gitbook.io/whitepaper/products/dcloud-staking">
+
+											<span class="elementor-icon-list-text">Staking</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://decentracloud.gitbook.io/whitepaper/products/decentracloud-bridge">
+
+											<span class="elementor-icon-list-text">Bridge</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://decentracloud.gitbook.io/whitepaper/products/decentracloud-swap">
+
+											<span class="elementor-icon-list-text">Swap</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-2e7ab8f" data-id="2e7ab8f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-be00cbc elementor-widget elementor-widget-heading" data-id="be00cbc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">SECURITY</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e80e0af elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="e80e0af" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://t.me/gemsbynikisha/344">
+
+											<span class="elementor-icon-list-text">SAFU</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://github.com/interfinetwork/project-delivery-data/blob/main/DecentraCloud/DecentraCloud_AuditReport_InterFi.pdf">
+
+											<span class="elementor-icon-list-text">AUDIT</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://pinksale.notion.site/DecentraCloud-KYC-Verification-c2929f9b327c467babb4ea3241a95575">
+
+											<span class="elementor-icon-list-text">KYC</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.youtube.com/watch?v=fVH3yP6VRJg">
+
+											<span class="elementor-icon-list-text">DOXX</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-de34f00" data-id="de34f00" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2869998 elementor-widget elementor-widget-heading" data-id="2869998" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">OUR SOCIALS</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-999400d elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="999400d" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://twitter.com/Decentracloud_">
+
+											<span class="elementor-icon-list-text">X.com</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://t.me/DecentraCloud">
+
+											<span class="elementor-icon-list-text">Telegram</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-d332389" data-id="d332389" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-968b428 elementor-widget elementor-widget-heading" data-id="968b428" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">LEGAL</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-600a2e4 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="600a2e4" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://decentracloud.gitbook.io/whitepaper/quick-info/legal-disclaimer">
+
+											<span class="elementor-icon-list-text">Disclaimer</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://decentracloud.gitbook.io/whitepaper/quick-info/privacy-policies">
+
+											<span class="elementor-icon-list-text">Privacy</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-section elementor-inner-section elementor-element elementor-element-c047951 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c047951" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-88d6c69" data-id="88d6c69" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a61c8dd elementor-widget elementor-widget-image" data-id="a61c8dd" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="938" height="266" src="https://decentracloud.org/wp-content/uploads/2023/10/Dcloud-2.png" class="attachment-full size-full wp-image-47" alt="" loading="lazy" srcset="https://decentracloud.org/wp-content/uploads/2023/10/Dcloud-2.png 938w, https://decentracloud.org/wp-content/uploads/2023/10/Dcloud-2-300x85.png 300w, https://decentracloud.org/wp-content/uploads/2023/10/Dcloud-2-768x218.png 768w, https://decentracloud.org/wp-content/uploads/2023/10/Dcloud-2-650x184.png 650w" sizes="(max-width: 938px) 100vw, 938px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2652d37" data-id="2652d37" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f8a248f elementor-widget elementor-widget-text-editor" data-id="f8a248f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: #000000;"><strong>Email:</strong></span> <strong><span style="color: #3d5afe;"><a style="color: #3d5afe;" href="mailto:team@decentracloud.org">team@decentracloud.org</a></span></strong></p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ddd5c15" data-id="ddd5c15" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-e3cada2 elementor-widget elementor-widget-text-editor" data-id="e3cada2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Copyright: © 2024 <strong><span style="color: #000000;"><a style="color: #000000;" href="http://decentracloud.org/">Decentracloud</a></span></strong>.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</div>
+					</div>
+		</div>
+							</div>
+		</div>
+							</div>
+				    </footer>
+            <!-- 1.5 uicore_content_end -->
+</div><!-- #page -->
+
+<div id="uicore-back-to-top" class="uicore-back-to-top uicore-i-arrow uicore_hide_mobile "></div>        <div class="uicore-navigation-wrapper uicore-navbar elementor-section elementor-section-boxed uicore-mobile-menu-wrapper
+                ">
+			<nav class="uicore elementor-container">
+				<div class="uicore-branding uicore-mobile">
+                                            <a href="https://decentracloud.org/" rel="home">
+                            <img class="uicore uicore-logo"  src="http://decentracloud.org/wp-content/uploads/2023/10/Dcloud-2.png" alt="Decentracloud"/>
+                        </a>
+                    				</div>
+
+
+                <div class="uicore-branding uicore-desktop">
+                    				</div>
+
+
+				<button type="button" class="uicore-toggle uicore-ham" aria-label="mobile-menu">
+					<span class="bars">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</span>
+				</button>
+			</nav>
+			<div class="uicore-navigation-content">
+                <div class="uicore-menu-container uicore-nav"><ul data-uils="header-menu" data-uils-title="Navigation Menu" class="uicore-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-36 current_page_item menu-item-41"><a href="https://decentracloud.org/" aria-current="page"><span class="ui-menu-item-wrapper">Home</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a href="#WHY"><span class="ui-menu-item-wrapper">About</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44"><a href="#STAKING"><span class="ui-menu-item-wrapper">Stake</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-170"><a href="#Tokenomics"><span class="ui-menu-item-wrapper">Tokenomics</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-171"><a href="#Roadmap"><span class="ui-menu-item-wrapper">Roadmap</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42"><a href="#Security"><span class="ui-menu-item-wrapper">Security</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-193"><a href="https://decentracloud.gitbook.io/whitepaper/"><span class="ui-menu-item-wrapper">Whitepaper</span></a></li>
+</ul></div><div class="uicore uicore-extra" data-uils="header_extra" data-uils-title="Header Extras">            <div class="uicore-cta-wrapper">
+				<a href="https://raydium.io/swap/?outputCurrency=fillhere;refId=0xDCC84A0F00E88E27dAbb712E50AA2a5cdd745e89"
+					target="_self"
+					class="uicore-btn ">
+                    <span class="elementor-button-text">
+						BUY $DCLOUD                    </span>
+				</a>
+            </div>
+        </div>            </div>
+		</div>
+		<!-- 1.6 uicore_body_end --></div>
+<!-- 1.7 uicore_after_body_content --><script> 
+var uicore_frontend = {'back':'Back', 'rtl' : '','mobile_br' : '1025'};
+ console.log( 'Using FinFlow v.2.0.3');
+ console.log( 'Powered By UiCore Framework v.5.0.4');
+ </script> <link rel='stylesheet' id='ui-e-split-css' href='https://decentracloud.org/wp-content/plugins/uicore-framework/assets/css/elementor/widgets/split.css?ver=5.0.4' media='all' />
+<link rel='stylesheet' id='ep-advanced-button-css' href='https://decentracloud.org/wp-content/plugins/bdthemes-element-pack/assets/css/ep-advanced-button.css?ver=7.5.2' media='all' />
+<link rel='stylesheet' id='ep-advanced-icon-box-css' href='https://decentracloud.org/wp-content/plugins/bdthemes-element-pack/assets/css/ep-advanced-icon-box.css?ver=7.5.2' media='all' />
+<link rel='stylesheet' id='ep-accordion-css' href='https://decentracloud.org/wp-content/plugins/bdthemes-element-pack/assets/css/ep-accordion.css?ver=7.5.2' media='all' />
+<script src="https://decentracloud.org/wp-content/uploads/uicore-global.js?ver=1058" id="uicore_global-js"></script>
+<script src="https://decentracloud.org/wp-content/plugins/uicore-framework/assets/js/elementor/widgets/split.js?ver=5.0.4" id="ui-e-split-js"></script>
+<script id="bdt-uikit-js-extra">
+var element_pack_ajax_login_config = {"ajaxurl":"https:\/\/decentracloud.org\/wp-admin\/admin-ajax.php","language":"en","loadingmessage":"Sending user info, please wait...","unknownerror":"Unknown error, make sure access is correct!"};
+var ElementPackConfig = {"ajaxurl":"https:\/\/decentracloud.org\/wp-admin\/admin-ajax.php","nonce":"b8a5fab3b4","data_table":{"language":{"lengthMenu":"_MENU_ Entries","info":"_START_ to _END_ of _TOTAL_ entries","search":"Search :","sZeroRecords":"No matching records found","paginate":{"previous":"Previous","next":"Next"}}},"contact_form":{"sending_msg":"Sending message please wait...","captcha_nd":"Invisible captcha not defined!","captcha_nr":"Could not get invisible captcha response!"},"mailchimp":{"subscribing":"Subscribing you please wait..."},"search":{"more_result":"More Results","search_result":"SEARCH RESULT","not_found":"not found"},"elements_data":{"sections":[],"columns":[],"widgets":[]}};
+</script>
+<script src="https://decentracloud.org/wp-content/plugins/bdthemes-element-pack/assets/js/bdt-uikit.min.js?ver=3.16.24" id="bdt-uikit-js"></script>
+<script src="https://decentracloud.org/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.17.1" id="elementor-webpack-runtime-js"></script>
+<script src="https://decentracloud.org/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.17.1" id="elementor-frontend-modules-js"></script>
+<script src="https://decentracloud.org/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.17.1","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"landing-pages":true,"e_global_styleguide":true},"urls":{"assets":"https:\/\/decentracloud.org\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":36,"title":"Decentracloud%20%E2%80%93%20Cloud%20Storage%27s%20Future%20on%20Multiple%20Networks","excerpt":"","featuredImage":false}};
+</script>
+<script src="https://decentracloud.org/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.17.1" id="elementor-frontend-js"></script>
+<script src="https://decentracloud.org/wp-content/plugins/bdthemes-element-pack/assets/js/modules/ep-advanced-icon-box.min.js?ver=7.5.2" id="ep-advanced-icon-box-js"></script>
+<script src="https://decentracloud.org/wp-content/plugins/bdthemes-element-pack/assets/js/modules/ep-accordion.min.js?ver=7.5.2" id="ep-accordion-js"></script>
+<script src="https://decentracloud.org/wp-content/plugins/bdthemes-element-pack/assets/js/common/helper.min.js?ver=7.5.2" id="element-pack-helper-js"></script>
+</body>
+
+<!-- Mirrored from decentracloud.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Mar 2024 18:17:01 GMT -->
+</html>
+
+
+<!-- Page cached by LiteSpeed Cache 6.1 on 2024-03-24 16:54:19 -->
